@@ -1,0 +1,19 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.expense-table {
+    margin: 0 auto;
+    background-color: white; 
+    width: 400px; 
+    border: 2px solid black;
+}
+
+.expence-form  {
+    display: inline;
+}
+
+.error {
+	color: red;
+}
