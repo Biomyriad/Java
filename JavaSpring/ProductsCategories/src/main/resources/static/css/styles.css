@@ -1,0 +1,42 @@
+body {
+	background-color: #999;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.error {
+	color: red;
+}
+
+table.items-list, .items-list th, .items-list td {
+    border: 2px solid;
+    width: 300px;
+}
+
+.items-list thead tr th h3 {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.items-list th {
+    padding: 5px;
+    width: fit-content;
+}
+
+.items-list td {
+    padding: 10px;
+    padding-top: 11px;
+    padding-bottom: 0px;
+}
+
+table.new-form, .new-form td {
+    border: 2px solid;
+    width: 300px;
+}
+
+table.new-form tr:last-child td {
+    border-right: none;
+}
