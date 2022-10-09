@@ -1,0 +1,31 @@
+body {
+	background-color: #999;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.dashboard-table {
+    margin: 0 auto;
+    background-color: white; 
+    width: 600px; 
+    border: 2px solid black;
+}
+
+.dashboard-table thead {
+    background-color: #ccc;
+}
+
+.show-table tr td:first-child {
+    width: 200px;
+}
+
+.show-table tr td {
+    padding-bottom: 20px;
+}
+
+.error {
+    color: red;
+}
